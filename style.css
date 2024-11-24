@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*navbar start*/
+
+.mani-navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+     padding: 30px 150px;
+     background: #f5f57a;
+     position: static;
+     position: fixed;
+     top: 0;
+     width: 100%;
+}
+
+.main-right ul{
+display: flex;
+align-items: center;
+justify-content: center;
+list-style: none;
+}
+.main-right ul li {
+    margin-right: 30px;
+}
+.main-right ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: ease-in 3s;
+}
+.main-right ul li a:hover{
+    border-bottom: 1px solid blue;
+ 
+}
+.main-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-left i {
+    font-size: 30px;
+    margin-right: 20px;
+}
+/*navbar end*/
+
+/*hero start*/
+.main-hero{
+    padding: 30px 150px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    background: #f5f57a;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+   text-align: left;
+  justify-content: center;
+}
+
+.hero-left p {
+    font-size: 30px;
+    font-weight: bold;
+}
+.hero-left h1 {
+    font-size: 70px;
+}
+.hero-left button{
+    background: yellow;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+   font-size: 20px;
+}
+.hero-right img {
+    width: 750px;
+}
+/*hero end*/
+
+/*features start*/
+.headers-features {
+    padding: 30px;
+    text-align: center; 
+}
+.headers-features h1{
+    color: #61009a;
+    font-weight: bold;
+    font-size: 50px;
+}
+.headers-features p{
+    font-size: 20px;
+}
+.cards-features {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    padding: 30px 150px;
+}
+.card-fetures{
+    text-align: center;
+    background: #f5f57a;
+    padding: 20px;
+   
+}
+.card-fetures i {
+margin-top: -100px;
+background: #61009a;
+padding: 20px;
+border-radius: 100%;
+font-size: 30px;
+color: #f5f57a;
+transition: 1s ease;
+}
+.card-fetures i:hover{
+    border: rgb(218, 218, 39) solid 1px;
+    transform: scale(120%);
+}
+/*features end*/
+
+/*detals start*/
+.main-details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    padding: 30px 150px;  
+}
+.details-left h1,
+.details-right h1{
+ font-size: 50px; 
+ font-weight: bold; 
+ color: #61009a; 
+}
+.details-left p,
+.details-right p{
+    font-size: 25px;
+}
+.details-right-icon{
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+}
+.details-right-icon i {
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.details-left button,
+.details-right button{
+    background: yellow;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+   font-size: 20px;
+   color: #61009a;
+}
+.details-left button:hover,
+.details-right button:hover{
+    background: white;
+    color: black;
+}
+.details-center{
+    text-align: center;
+    width: 80%;
+}
+/*detals end*/
+
+/*people start*/
+#main-people{
+    background: #f5f57a;
+}
+.poeple-header{
+    padding: 30px 150px;
+    text-align: center;
+    color: #61009a;
+    font-weight: bold;
+    font-size: 25px;
+}
+.people-numbers{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 30px;
+}
+.people-number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+.people-number h4{
+    font-weight: bold;
+    font-size: 30px;
+}
+.people-number h5{
+    font-weight: bold;
+    font-size: 20px;
+}
+/*people end*/
+
+/*Enrollment start*/
+.main-enrollment{
+    padding: 30px 150px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.enrollment-left-1{
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+   }
+.enrollment-left-2,
+.enrollment-left-3{
+    margin-bottom: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+.enrollment-left-1 h1{
+    color: #61009a;
+    font-size: 50px;
+    margin-right: 20px;
+    text-align: center;
+}
+.enrollment-left-1 input{
+    background: rgb(245, 239, 239);
+    border-radius: 20px;
+    border: 2px solid #61009a;
+    width: 300px;
+    height: 60px;
+    width: 80%;
+}
+.enrollment-left-2 input,
+.enrollment-left-3 input{
+    background: rgb(245, 239, 239);
+    border-radius: 20px;
+    border: 2px solid #61009a;
+    width: 300px;
+    height: 60px;
+    width: 80%;
+}
+.enrollment-left-4 button{
+    background: yellow;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+   font-size: 20px;
+   color: #61009a; 
+}
+.enrollment-left-4 button:hover{
+    background: white;
+}
+.enrollment-right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 5px;
+}
+.enrollment-right img {
+    width: 400px;
+    border-radius: 20px;
+}
+.enrollment-right-1 img,
+.enrollment-right-2 img{
+    margin-bottom: 10px;
+}
+/*Enrollment end*/
+
+/*footer start*/
+#main-footer{
+    background: #f5f57a;
+}
+.main-footer {
+    padding: 30px 150px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    column-gap: 20px;
+}
+.footer-details{
+    text-align: center;
+}
+.footer-details h1{
+    color: #61009a;
+}
+.footer-details p {
+    color: black;
+    font-weight: bold;
+}
+.footer-details-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-details-icon i {
+    font-size: 30px;
+}
+.icon{
+    background: #61009a;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    color: #f5f57a;
+}
+
+/*footer end*/
+
+/*footer design start*/
+#footer-design{
+background: #f5f57a;
+padding: 30px 150px;
+}
+.footer-design{
+    text-align: center;
+}
+.footer-design p {
+    color: #61009a;
+    font-weight: bold;
+}
+/*footer design end*/
+
+/*responsive design*/
+@media (max-width:1640px) {
+.main-hero{
+    margin-top: 100px;
+}
+    
+}
+
+@media (max-width:1600px) {
+    .main-enrollment{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    
+}
+
+@media (max-width:1250px) {
+    .main-details{
+    grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+@media (max-width:1150px) {
+    .main-hero{
+      grid-template-columns: repeat(1,1fr);
+      text-align: center;
+
+    }
+    .hero-left{
+          align-items: center; 
+    }
+    .enrollment-left-4 button{
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media (max-width:1000px) {
+    .main-details{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        align-items: center;
+        }
+    .details-left button {
+        margin-bottom: 20px;
+    }
+    .details-center  {
+    text-align: center;
+    width: 100%;
+    }
+}
+
+@media (max-width:993px){
+    .main-footer {
+        grid-template-columns: repeat(2,1fr);
+    } 
+}
+
+
+@media (max-width:900px){
+    .main-hero{
+     justify-content: center;
+    }
+     .cards-features {
+       grid-template-columns: repeat(1,1fr);
+       width: 100%;
+       row-gap: 20px;
+        } 
+}
+
+@media (max-width:819px){
+.enrollment-left-1,
+.enrollment-left-2,
+.enrollment-left-3{
+grid-template-columns: repeat(1,1fr);
+    
+ 
+    }
+    .enrollment-left-1 input,
+    .enrollment-left-2 input,
+    .enrollment-left-3 input {
+    margin: auto;
+    }
+    .enrollment-right{
+             grid-template-columns: repeat(1,1fr);
+                    }
+    .enrollment-left-1 h1,
+    .enrollment-left-2 input,
+    .enrollment-left-3 input {
+    margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width:750px){
+    .hero-left,
+    .hero-right{
+        background: #f5f57a;
+    }
+    }
+
+@media (max-width:700px){
+    .people-numbers{
+       
+        grid-template-columns: repeat(2,1fr);
+         row-gap: 20px;
+     }
+
+    .hero-right img {
+        width: 100%;
+     }
+     .hero-left h1 {
+        font-size: 40px;
+ }
+    }
+
+        @media (max-width:655px){
+            .mani-navbar{
+                display: flex;
+              flex-direction: column;
+            }
+           .main-hero{
+            margin-top: 40px;
+             }
+          .headers-features h1{
+              font-size: 30px;
+             }
+             .hero-left h1 {
+                font-size: 30px;
+         }
+         .hero-left{
+            margin-top: 150px;
+         }
+         .hero-left p {
+            font-size: 20px;
+         }
+
+
+            }
+
+            @media (max-width:634px){
+                .main-footer {
+                    grid-template-columns: repeat(1,1fr);
+                } 
+                }
+            @media (max-width:600px){
+                .main-details{
+                    width: 100%;
+               justify-content: center;
+                }
+                .main-details h1{
+                font-size: 2rem;
+                    }
+                 .details-left,
+                 .details-center,
+                 .details-right{
+                    width: 100%;
+                    margin-bottom: 20px;
+                 }
+                }
+
+                @media (max-width:550px){
+                    .hero-left h1 {
+                        font-size: 20px;
+                    }
+                    .headers-features h1{
+                        font-size: 2rem;
+                    }
+                    .enrollment-left-1 h1{
+                        font-size: 2rem;
+                    }
+                    .cards-features {
+                        grid-template-columns:300px;
+                        justify-content: center;
+
+                         } 
+                         .hero-left p {
+                            font-size: 15px;
+                         }
+
+                    }
+                    @media (max-width:447px) {
+                        #footer-design{
+                            padding: 30px 50px;
+                            }
+                            .footer-design p {
+                                color: #61009a;
+                                font-weight: bold;
+                            }
+                    }
+                    @media (max-width:450px) {
+                        .headers-features {
+                         width: 100%;
+                        }
+                         .social-icon{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            row-gap: 10px;
+                         }
+                        .poeple-header h1 {
+                          font-size: 25px;
+                        }
+                        .people-numbers{
+                          
+                            grid-template-columns: repeat(1,1fr);
+                        
+                        }
+
+
+                      }
+
+                      @media (max-width:410px) {
+
+                        .details-right-icon{
+                            display: flex;
+                           flex-direction: column;
+                            margin-bottom: 10px;
+                            padding-left: 5px;
+                        }
+                        .details-right-icon i {
+                            margin-right: 5px;
+                            font-size: 15px;
+                        }
+
+                        .details-right-icon{
+                           padding: 0 10px;
+                        }
+                        .details-left h1,
+                        .details-right h1{
+                         font-size: 25px; 
+                        }
+                        .details-left p,
+                        .details-right p{
+                            font-size: 20px;
+                        }
+                        .details-right-icon i {
+                            font-size: 20px;
+                        }
+                        .details-center{
+                       width: 70%;
+                        }
+                       
+                      }
+
+
+                      
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive design//*/
